@@ -1,6 +1,42 @@
 package ru.pk.lc;
 
+import java.util.Arrays;
+
 public class Solution {
+
+    private static class Res {
+        public Res(boolean reduced, int i2) {
+            this.reduced = reduced;
+            this.i2 = i2;
+        }
+
+        boolean reduced;
+        int i2;
+    }
+
+    private Res nextStep(int[] idx, int[] idx2, int[] nums, int idxLength) {
+        boolean reduced = false;
+
+        int prev = nums[idx[0]];
+        idx2[0] = idx[0];
+        int i2 = 1;
+        for (int i = 1; i < idxLength; i++) {
+            int j = idx[i];
+            int numsJ = nums[j];
+
+            if (prev > numsJ) {
+                //ok. continue
+                reduced = true;
+            } else {
+                idx2[i2] = j;
+                i2++;
+            }
+
+            prev = numsJ;
+        }
+
+        return new Res(reduced, i2);
+    }
 
     public int totalSteps(int[] nums) {
         if (nums == null || nums.length < 2) return 0;
@@ -17,13 +53,17 @@ public class Solution {
         boolean reduced;
         int i2 = idx2.length;
         do {
-            reduced = false;
+            //reduced = false;
 
             idx3 = idx;
             idx = idx2;
             idx2 = idx3;
 
-            int idxLength = i2;
+            Res res = nextStep(idx, idx2, nums, i2);
+            i2 = res.i2;
+            reduced = res.reduced;
+
+            /*int idxLength = i2;
 
             int prev = nums[idx[0]];
             idx2[0] = idx[0];
@@ -42,7 +82,7 @@ public class Solution {
                 }
 
                 prev = numsJ;
-            }
+            }*/
 
             if (reduced) {
                 steps++;
