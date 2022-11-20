@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="Почистил от мусора">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="Переделал. Ещё побыстрее стало. Но для Leetcode недостаточно">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668953821146</updated>
-      <workItem from="1668953829661" duration="21357000" />
+      <workItem from="1668953829661" duration="21637000" />
     </task>
     <task id="LOCAL-00001" summary="2289. Steps to Make Array Non-decreasing">
       <created>1668955619151</created>
@@ -113,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668975637284</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Переделал. Ещё побыстрее стало. Но для Leetcode недостаточно">
+      <created>1668978397544</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668978397544</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +142,8 @@
     <MESSAGE value="На этом примере падает по таймауту" />
     <MESSAGE value="Чуть ускорил. Не понимаю, почему" />
     <MESSAGE value="Почистил от мусора" />
-    <option name="LAST_COMMIT_MESSAGE" value="Почистил от мусора" />
+    <MESSAGE value="Переделал. Ещё побыстрее стало. Но для Leetcode недостаточно" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переделал. Ещё побыстрее стало. Но для Leetcode недостаточно" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

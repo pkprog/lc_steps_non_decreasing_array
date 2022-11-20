@@ -36,7 +36,10 @@ public class Solution {
             } else {
                 steps++;
                 i2 = newI2;
+                //
+                int[] nums3 = nums;
                 nums = nums2;
+                nums2 = nums3;
             }
         } while(true);
 
