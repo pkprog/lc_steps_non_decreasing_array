@@ -18,7 +18,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] n = new int[] {1,2,4,3};
+        //int[] n = new int[] {1,2,4,3};
+        //int[] n = new int[] {4,5,7,7,13};
+        int[] n = new int[] {5,3,4,4,7,3,6,11,8,5,11};
 
         start(n);
     }
