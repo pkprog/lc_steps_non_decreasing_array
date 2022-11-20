@@ -24,12 +24,13 @@ public class Main {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        //int[] n = new int[] {1,2,4,3};
-        //int[] n = new int[] {4,5,7,7,13};
-        //int[] n = new int[] {5,3,4,4,7,3,6,11,8,5,11};
+//        int[] n = new int[] {1,2,4,3}; //1
+//        int[] n = new int[] {4,5,7,7,13}; //0
+//        int[] n = new int[] {5,3,4,4,7,3,6,11,8,5,11};  //3
         //int[] n = new int[] {7,14,4,14,13,2,6,13};
-//        int[] n = loadFromFile("test_case1.txt");
-        int[] n = loadFromFile("test_case5.txt");
+//        int[] n = loadFromFile("test_case1.txt"); //1
+//        int[] n = loadFromFile("test_case5.txt"); //17599
+        int[] n = loadFromFile("test_case6.txt"); //
 
         start(n);
     }

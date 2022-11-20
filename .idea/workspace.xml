@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="Тестовые примеры проходят">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case5.txt" afterDir="false" />
+    <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="На этом примере падает по таймауту">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" afterDir="false" />
@@ -52,7 +51,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="RunManager">
@@ -72,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668953821146</updated>
-      <workItem from="1668953829661" duration="8350000" />
+      <workItem from="1668953829661" duration="13021000" />
     </task>
     <task id="LOCAL-00001" summary="2289. Steps to Make Array Non-decreasing">
       <created>1668955619151</created>
@@ -88,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668959207287</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="На этом примере падает по таймауту">
+      <created>1668962378793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668962378793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +114,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2289. Steps to Make Array Non-decreasing" />
     <MESSAGE value="Тестовые примеры проходят" />
-    <option name="LAST_COMMIT_MESSAGE" value="Тестовые примеры проходят" />
+    <MESSAGE value="На этом примере падает по таймауту" />
+    <option name="LAST_COMMIT_MESSAGE" value="На этом примере падает по таймауту" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
