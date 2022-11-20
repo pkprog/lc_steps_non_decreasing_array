@@ -41,7 +41,7 @@ public class Solution {
                     }
                 }
 
-                prev = nums[i];
+                prev = nums[j];
             }
 
             if (reduced) {

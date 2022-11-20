@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="2289. Steps to Make Array Non-decreasing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/package-info.java" afterDir="false" />
+    <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="Тестовые примеры проходят">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" afterDir="false" />
@@ -48,10 +49,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
   }
 }]]></component>
   <component name="RunManager">
@@ -71,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668953821146</updated>
-      <workItem from="1668953829661" duration="5257000" />
+      <workItem from="1668953829661" duration="8350000" />
     </task>
     <task id="LOCAL-00001" summary="2289. Steps to Make Array Non-decreasing">
       <created>1668955619151</created>
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668955619153</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Тестовые примеры проходят">
+      <created>1668959207287</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668959207287</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,23 +107,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2289. Steps to Make Array Non-decreasing" />
-    <option name="LAST_COMMIT_MESSAGE" value="2289. Steps to Make Array Non-decreasing" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Тестовые примеры проходят" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тестовые примеры проходят" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
