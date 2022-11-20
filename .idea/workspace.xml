@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="Чуть ускорил. Не понимаю, почему">
+    <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="Почистил от мусора">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -70,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668953821146</updated>
-      <workItem from="1668953829661" duration="18225000" />
+      <workItem from="1668953829661" duration="21357000" />
     </task>
     <task id="LOCAL-00001" summary="2289. Steps to Make Array Non-decreasing">
       <created>1668955619151</created>
@@ -107,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668972914524</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Почистил от мусора">
+      <created>1668975637251</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668975637284</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +135,19 @@
     <MESSAGE value="Тестовые примеры проходят" />
     <MESSAGE value="На этом примере падает по таймауту" />
     <MESSAGE value="Чуть ускорил. Не понимаю, почему" />
-    <option name="LAST_COMMIT_MESSAGE" value="Чуть ускорил. Не понимаю, почему" />
+    <MESSAGE value="Почистил от мусора" />
+    <option name="LAST_COMMIT_MESSAGE" value="Почистил от мусора" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
