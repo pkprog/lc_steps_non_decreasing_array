@@ -30,7 +30,7 @@ public class Main {
         //int[] n = new int[] {7,14,4,14,13,2,6,13};
 //        int[] n = loadFromFile("test_case1.txt"); //1
 //        int[] n = loadFromFile("test_case5.txt"); //17599
-        int[] n = loadFromFile("test_case6.txt"); //
+        int[] n = loadFromFile("test_case6.txt"); //99999
 
         start(n);
     }

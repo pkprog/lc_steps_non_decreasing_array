@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="На этом примере падает по таймауту">
+    <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="Чуть ускорил. Не понимаю, почему">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager">
@@ -69,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668953821146</updated>
-      <workItem from="1668953829661" duration="16112000" />
+      <workItem from="1668953829661" duration="18225000" />
     </task>
     <task id="LOCAL-00001" summary="2289. Steps to Make Array Non-decreasing">
       <created>1668955619151</created>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668967319734</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Чуть ускорил. Не понимаю, почему">
+      <created>1668972914524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668972914524</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,18 +128,8 @@
     <MESSAGE value="2289. Steps to Make Array Non-decreasing" />
     <MESSAGE value="Тестовые примеры проходят" />
     <MESSAGE value="На этом примере падает по таймауту" />
-    <option name="LAST_COMMIT_MESSAGE" value="На этом примере падает по таймауту" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Чуть ускорил. Не понимаю, почему" />
+    <option name="LAST_COMMIT_MESSAGE" value="Чуть ускорил. Не понимаю, почему" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

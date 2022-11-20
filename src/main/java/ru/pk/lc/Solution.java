@@ -1,33 +1,17 @@
 package ru.pk.lc;
 
-import java.util.Arrays;
-
 public class Solution {
 
-    private static class Res {
-        public Res(boolean reduced, int i2) {
-            this.reduced = reduced;
-            this.i2 = i2;
-        }
-
-        boolean reduced;
-        int i2;
-    }
-
-    private Res nextStep(int[] idx, int[] idx2, int[] nums, int idxLength) {
-        boolean reduced = false;
-
+    private int nextStep(int[] idx, int[] idx2, int[] nums, int idxLength) {
         int prev = nums[idx[0]];
         idx2[0] = idx[0];
         int i2 = 1;
+
         for (int i = 1; i < idxLength; i++) {
             int j = idx[i];
             int numsJ = nums[j];
 
-            if (prev > numsJ) {
-                //ok. continue
-                reduced = true;
-            } else {
+            if (prev <= numsJ) {
                 idx2[i2] = j;
                 i2++;
             }
@@ -35,7 +19,7 @@ public class Solution {
             prev = numsJ;
         }
 
-        return new Res(reduced, i2);
+        return i2;
     }
 
     public int totalSteps(int[] nums) {
@@ -50,44 +34,21 @@ public class Solution {
         int[] idx3;
 
         int steps = 0;
-        boolean reduced;
         int i2 = idx2.length;
-        do {
-            //reduced = false;
 
+        do {
             idx3 = idx;
             idx = idx2;
             idx2 = idx3;
 
-            Res res = nextStep(idx, idx2, nums, i2);
-            i2 = res.i2;
-            reduced = res.reduced;
-
-            /*int idxLength = i2;
-
-            int prev = nums[idx[0]];
-            idx2[0] = idx[0];
-            i2 = 1;
-
-            for (int i = 1; i < idxLength; i++) {
-                int j = idx[i];
-                int numsJ = nums[j];
-
-                if (prev > numsJ) {
-                    //ok. continue
-                    reduced = true;
-                } else {
-                    idx2[i2] = j;
-                    i2++;
-                }
-
-                prev = numsJ;
-            }*/
-
-            if (reduced) {
+            int newI2 = nextStep(idx, idx2, nums, i2);
+            if (newI2 == i2) {
+                break;
+            } else {
                 steps++;
+                i2 = newI2;
             }
-        } while(reduced);
+        } while(true);
 
         return steps;
     }
