@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2f195df-55fa-458e-a18f-8b8748203777" name="Changes" comment="Переделал. Ещё побыстрее стало. Но для Leetcode недостаточно">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668953821146</updated>
-      <workItem from="1668953829661" duration="21637000" />
+      <workItem from="1668953829661" duration="23434000" />
     </task>
     <task id="LOCAL-00001" summary="2289. Steps to Make Array Non-decreasing">
       <created>1668955619151</created>
@@ -119,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668978397544</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Переделал. Ещё побыстрее стало. Но для Leetcode недостаточно">
+      <created>1668978923246</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668978923246</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +158,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/pk/lc/Solution.java</url>
-          <line>32</line>
+          <line>30</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

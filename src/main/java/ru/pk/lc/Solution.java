@@ -10,12 +10,10 @@ public class Solution {
         for (int i = 1; i < idxLength; i++) {
             int numsJ = nums[i];
 
-            if (prev <= numsJ) {
+            if (nums[i-1] <= numsJ) {
                 nums2[i2] = numsJ;
                 i2++;
             }
-
-            prev = numsJ;
         }
 
         return i2;
@@ -40,6 +38,10 @@ public class Solution {
                 int[] nums3 = nums;
                 nums = nums2;
                 nums2 = nums3;
+
+//                if (steps % 50 == 0) {
+//                    nums2 = new int[newI2];
+//                }
             }
         } while(true);
 
