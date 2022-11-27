@@ -1,19 +1,35 @@
 package ru.pk.lc;
 
+import java.util.Arrays;
+
 public class Solution {
 
     private int nextStep(int[] nums, int[] nums2, int idxLength) {
-        int prev = nums[0];
         nums2[0] = nums[0];
         int i2 = 1;
 
+        int start = -1;
         for (int i = 1; i < idxLength; i++) {
-            int numsJ = nums[i];
-
-            if (nums[i-1] <= numsJ) {
-                nums2[i2] = numsJ;
-                i2++;
+            if (nums[i-1] <= nums[i]) {
+                if (start == -1) {
+                    start = i;
+                }
+//                nums2[i2] = nums[i];
+//                i2++;
+            } else {
+                if (start != -1) {
+                    int lengthFromStart = i - start;
+                    System.arraycopy(nums, start, nums2, i2, lengthFromStart);
+                    i2 += lengthFromStart;
+                    start = -1;
+                }
             }
+        }
+
+        if (start != -1) {
+            int lengthFromStart = idxLength - start;
+            System.arraycopy(nums, start, nums2, i2, lengthFromStart);
+            i2 += lengthFromStart;
         }
 
         return i2;
@@ -25,23 +41,19 @@ public class Solution {
         int[] nums2 = new int[nums.length];
 
         int steps = 0;
-        int i2 = nums.length;
+        int maxLength = nums.length;
 
         do {
-            int newI2 = nextStep(nums, nums2, i2);
-            if (newI2 == i2) {
+            int newMaxLength = nextStep(nums, nums2, maxLength);
+            if (newMaxLength == maxLength) {
                 break;
             } else {
                 steps++;
-                i2 = newI2;
+                maxLength = newMaxLength;
                 //
                 int[] nums3 = nums;
                 nums = nums2;
                 nums2 = nums3;
-
-//                if (steps % 50 == 0) {
-//                    nums2 = new int[newI2];
-//                }
             }
         } while(true);
 

@@ -24,15 +24,20 @@ public class Main {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-//        int[] n = new int[] {1,2,4,3}; //1
-//        int[] n = new int[] {4,5,7,7,13}; //0
-//        int[] n = new int[] {5,3,4,4,7,3,6,11,8,5,11};  //3
-        //int[] n = new int[] {7,14,4,14,13,2,6,13};
-//        int[] n = loadFromFile("test_case1.txt"); //1
-//        int[] n = loadFromFile("test_case5.txt"); //17599
-        int[] n = loadFromFile("test_case6.txt"); //99999
-
-        start(n);
+//        int[] n1 = new int[] {1,2,4,3}; //1
+//        start(n1);
+//        int[] n2 = new int[] {4,5,7,7,13}; //0
+//        start(n2);
+//        int[] n3 = new int[] {5,3,4,4,7,3,6,11,8,5,11};  //3
+//        start(n3);
+//        int[] n4 = new int[] {5,3,4,4,7,3,6,11}; //3
+//        start(n4);
+//        int[] n5 = loadFromFile("test_case1.txt"); //1
+//        start(n5);
+//        int[] n6 = loadFromFile("test_case5.txt"); //17599
+//        start(n6);
+        int[] n7 = loadFromFile("test_case6.txt"); //99999
+        start(n7);
     }
 
     private static int[] loadFromFile(String path) {
